@@ -161,15 +161,112 @@
 
   <div class="article-full content">
     <article class="news col-md-12">
-      <style type="text/css">.mas-historias-hoy{margin: 0 52px 60px 52px; padding-bottom:60px;border-bottom: solid 1px #ddd;}h4.titulo-flujos {
-                                                                                                                               text-transform:uppercase;}.widget1{padding:0 20px}
-      </style>
+      <style type="text/css">.mas-historias-hoy {
+        margin: 0 52px 60px 52px;
+        padding-bottom: 60px;
+        border-bottom: solid 1px #ddd;
+      }
 
-      <div class="article-meta col-sm-12 col-md-12 col-lg-11 col-lg-offset-1">
-        <h6 class="category color-la-silla-vacia">
-          <a href="#">La Silla Vacía interactive</a>
-        </h6>
-        <h1 class="article-title">El Tarjetón 2018</h1>
+      h4.titulo-flujos {
+        text-transform: uppercase;
+      }
+
+      .widget1 {
+        padding: 0 20px
+      }
+      </style>
+      <style type="text/css">.headerelection {
+        width: 100%;
+        padding: 2em 0 1em;
+        color: #1f1f20;
+      }
+
+      .titleelection {
+        font-family: 'Georgia';
+        font-weight: 800;
+        font-size: 75px;
+        line-height: 100%;
+      }
+
+      .sloganelection {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Roboto';
+        font-weight: 600;
+        letter-spacing: 0.05em;
+      }
+
+      @media screen and      (max-width: 480px      ) and      (min-width: 300px      ) {
+        .headerelection {
+          padding: 1em 0 0.5em;
+        }
+
+        .titleelection {
+          font-size: 42px !important;
+        }
+
+        .sloganelection {
+          font-size: 12px;
+        }
+      }
+
+      .sloganelection,
+      .titleelection {
+        text-align: center;
+      }
+
+      .share-container {
+        clear: both;
+        float: none;
+        margin: 1em auto;
+        text-align: center;
+      }
+
+      .share-container ul {
+        margin: 0;
+        padding: 0;
+      }
+
+      .share-container li {
+        float: none;
+        display: inline !important;
+      }
+
+      .share-container li a {
+        text-decoration: none;
+      }
+
+      .panels-flexible-region-52-center {
+        width: 100%;
+      }
+      </style>
+      <div class="headerelection">
+        <div class="titleelection">Elecciones 2018</div>
+
+        <div class="sloganelection">las historias de la carrera por el poder</div>
+
+        <div class="menu-ancla">
+          <section class="share-container">
+            <ul>
+              <li class="twitter"><a href="#"><img alt="Tweet"
+                                                   src="http://www.lasillavacia.com/sites/all/themes/lasillavacia/images/iconos/iconos_twitter-header.svg">
+              </a></li>
+              <li class="facebook"><a href="#"><img alt=""
+                                                    src="http://www.lasillavacia.com/sites/all/themes/lasillavacia/images/iconos/iconos_facebook-header.svg">
+              </a></li>
+              <li class="whatsapp visible-xs"><a data-action="share/whatsapp/share"
+                                                 href="whatsapp://send?text=http://lasillavacia.com/eln-especial"><img
+                  alt=""
+                  src="http://www.lasillavacia.com/sites/all/themes/lasillavacia/images/iconos/iconos_watsup-header.svg"></a>
+              </li>
+              <li class="email"><a
+                  href="mailto:?subject=Mapa mental de la negociación con el ELN&amp;body=Aquí están los actores decisivos, sus incentivos y alternativas: http://lasillavacia.com/eln-especial"><img
+                  alt=""
+                  src="http://www.lasillavacia.com/sites/all/themes/lasillavacia/images/iconos/iconos_mail-header.svg"></a>
+              </li>
+            </ul>
+          </section>
+        </div>
       </div>
 
       <div class="clearfix"></div>
@@ -204,11 +301,11 @@
                       },
                       {
                         title: 'Nivel de estudios',
-                        column: 'nivelDeEstudios'
+                        column: 'estudios'
                       },
                       {
                         title: 'Líos o cuestionamientos',
-                        column: 'liosOCuestionamientos'
+                        column: 'tieneLiosOCuestionamientos'
                       },
                       {
                         title: 'Minoría',
